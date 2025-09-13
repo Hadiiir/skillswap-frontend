@@ -3,11 +3,11 @@
 import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Badge } from "@/components/ui/badge"
-import { LanguageToggle } from "@/components/language-toggle"
-import { useTranslation, type Language } from "@/lib/i18n"
+import { Button } from "../components/ui/button"
+import { Sheet, SheetContent, SheetTrigger } from "../components/ui/sheet"
+import { Badge } from "../components/ui/badge"
+import { LanguageToggle } from "../components/language-toggle"
+import { useTranslation, type Language } from "../lib/i18n"
 import { Menu, Zap, Home, Search, User, MessageCircle, Settings, LogOut, Bell, Coins } from "lucide-react"
 
 interface NavigationProps {
